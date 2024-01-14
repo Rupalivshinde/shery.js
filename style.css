@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+  }
+
+.banner{
+width: 100%;
+height: 100%;
+
+
+}
+.banner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  
+
+
+}
+
+.top{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  
+}
+.workingarea{
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    max-width: 1920px;
+    position: relative;
+    
+    
+    
+}
+.nav{
+    width: 100%;
+    padding: 10px 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   }
+.nav img{
+   height: 130px;
+   width: 130px;
+}
+.nleft{
+    display: flex;
+align-items: center;
+padding-right: 500px;
+   gap: 40px;
+}
+.nright{
+    display: flex;
+align-items: center;
+    gap: 40px;
+}
+ .nav a{
+    pointer-events: all;
+   color:white;
+   font-family:'roboto';
+ 
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+}
+.hero{
+    width: 100%;
+   
+    
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%,-50%);
+}
+.heroleft{
+width:45%;
+
+
+margin-left:160px;
+
+}
+.heroleft .elem{
+   
+    /* background-color: red; */
+    overflow: hidden;
+}
+.heroleft .elem h1{
+    color:white;
+    font-size: 90px;
+    font-family: "Vina Sans";
+    font-weight: 200;
+}
+.heroright{
+    min-width:45%;
+   
+   
+    margin-right: 20px;
+}
+.btn{
+    pointer-events: all;
+    margin-top: 14px;
+    padding: 7px 7px;
+    font-family: 'roboto';
+    font-weight: 900;
+    
+
+}
+.heroright{
+    color: white;
+    padding-left: 270px;
+}
+.rightimg{
+    height: 220px;
+    width: 220px;
+   background-image: url(https://images.unsplash.com/photo-1604681630513-69474a4e253f?q=80&w=1527&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+   margin-left: 25px;
+   margin-top: 10px;
+   background-position: center;
+   background-size: cover;
+ 
+
+   
+}
+.heroright p{
+    margin-left: 2px;
+    margin-top: 15px;
+    font-size: 16px;
+
+}
